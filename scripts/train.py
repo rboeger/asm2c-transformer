@@ -1,9 +1,10 @@
 import torch
 from torch.utils.data import DataLoader
-from transformers import AutoTokenizer, AdamW
+from transformers import AutoTokenizer
 from dataset import AsmCDataset
 from model import load_model
 from tqdm import tqdm
+from torch.optim import AdamW
 
 tokenizer = AutoTokenizer.from_pretrained("t5-small")
 model = load_model("t5-small")
