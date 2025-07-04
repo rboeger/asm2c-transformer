@@ -9,6 +9,7 @@ A minimal transformer-based decompiler that learns to convert **assembly code** 
 
 ## Project Structure
 
+```
 asm2c-transformer/
 ├── data/ # Assembly ↔ C function pairs
 ├── scripts/ # Model, dataset, and training scripts
@@ -17,6 +18,7 @@ asm2c-transformer/
 ├── test_the_model.ipynb # Jupyter notebook for inference
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
